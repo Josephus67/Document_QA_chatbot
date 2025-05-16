@@ -9,7 +9,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Load spaCy model from project directory
-model_path = os.path.join(os.path.dirname(__file__), '..', 'spacy_model', 'en_core_web_md', 'en_core_web_md-3.8.0')
+model_path = os.path.join(os.path.dirname(__file__), '..', 'spacy_model', 'en_core_web_sm', 'en_core_web_sm-3.8.0')
 nlp = spacy.load(model_path)
 
 
